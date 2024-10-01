@@ -1,0 +1,11 @@
+[build]
+
+[[mounts]]
+  source = 'data'
+  destination = '/var/lib/mysql'
+  initial_size = '1gb'
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
